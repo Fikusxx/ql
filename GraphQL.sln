@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL", "GraphQL\GraphQL.csproj", "{17B1F7C7-C64F-44DE-87C1-32E3043A76EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaFirst", "SchemaFirst\SchemaFirst.csproj", "{7E6F5C46-0BDB-4795-A6A2-89389F3036DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{040BDF76-A8EE-47E9-BE92-2754A0EDC704}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{17B1F7C7-C64F-44DE-87C1-32E3043A76EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17B1F7C7-C64F-44DE-87C1-32E3043A76EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17B1F7C7-C64F-44DE-87C1-32E3043A76EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6F5C46-0BDB-4795-A6A2-89389F3036DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6F5C46-0BDB-4795-A6A2-89389F3036DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6F5C46-0BDB-4795-A6A2-89389F3036DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6F5C46-0BDB-4795-A6A2-89389F3036DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040BDF76-A8EE-47E9-BE92-2754A0EDC704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040BDF76-A8EE-47E9-BE92-2754A0EDC704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040BDF76-A8EE-47E9-BE92-2754A0EDC704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040BDF76-A8EE-47E9-BE92-2754A0EDC704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -14,7 +14,8 @@ public sealed class OrderSortInputType : SortInputType<Order>
 
         descriptor.Field(x => x.Id);
         descriptor.Field(x => x.Number).Type<AscOnlySortEnumType>();
-        descriptor.Field(x => x.Customer).Type<CustomerSortInputType>();
+        // descriptor.Field(x => x.Customer).Type<CustomerSortInputType>();
+        descriptor.Field(x => x.Customer);
     }
 }
 

@@ -10,13 +10,14 @@ public static class TypesExtensions
             #region Object
 
             .AddTypeExtension<GetObjectQuery>()
+            .AddTypeExtension(typeof(OrderExtensions))
 
             #endregion
 
             #region Interface
 
             .AddTypeExtension<GetInterfaceQuery>()
-            .AddInterfaceType<GraphQL.Types.IHasName>()
+            .AddInterfaceType<IHasName>()
             .AddType<Me>()
             .AddType<Pug>()
 

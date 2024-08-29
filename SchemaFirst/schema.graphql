@@ -1,0 +1,8 @@
+type Query {
+    sayHello(name: String! = "World"): String!
+    order: Order!
+}
+
+type Order {
+    number: String!
+}

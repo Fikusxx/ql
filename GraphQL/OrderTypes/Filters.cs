@@ -13,7 +13,8 @@ public sealed class OrderFilterInputType : FilterInputType<Order>
         // filtering are allowed only on these fields
         descriptor.BindFieldsExplicitly();
 
-        descriptor.Field(x => x.Number).Type<CustomStringOperationFilterInputType>();
+        // descriptor.Field(x => x.Number).Type<CustomStringOperationFilterInputType>();
+        descriptor.Field(x => x.Number);
         descriptor.Field(x => x.Id);
     }
 }

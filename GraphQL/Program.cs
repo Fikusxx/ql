@@ -2,6 +2,7 @@ using GraphQL;
 using GraphQL.Database;
 using GraphQL.Models;
 using GraphQL.OrderTypes;
+using GraphQL.Types;
 using Microsoft.AspNetCore.Mvc;
 using Customer = GraphQL.Models.Customer;
 using Order = GraphQL.Models.Order;
