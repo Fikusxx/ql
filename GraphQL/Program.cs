@@ -73,4 +73,7 @@ app.MapGet("/seed", async ([FromServices] AppDbContext ctx) =>
     return Results.Ok();
 });
 
-app.Run();
+// part of HotChocolate.AspNetCore.CommandLine package
+// dotnet run -- schema export --output ./schema.graphql
+// creates schema.graphql which can be exported in ci pipeline
+app.RunWithGraphQLCommands(args);
